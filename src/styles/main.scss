@@ -7,3 +7,25 @@ body {
   text-align: center;
   margin-top: 100px;
 }
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#eat {
+  position: absolute; top: 0; left: 0; right: 50%; bottom: 50%; background: rgb(57, 204, 77); border:solid #000; border-width: 0 10px 10px 0; 
+}
+
+#play { position: absolute; top: 0; left: 50%; right: 0; bottom: 50%; background: rgb(240, 221, 58); border:solid #000; border-width: 0 0 10px 0; 
+}
+
+#fight { position: absolute; top: 50%; left: 0; right: 50%; bottom: 0; background: rgb(243, 58, 58); border:solid #000; border-width: 0 10px 0 0; 
+}
+
+#sleep { position: absolute; top: 50%; left: 50%; right: 0; bottom: 0;
+  background: rgb(59, 103, 224);
+ } 
